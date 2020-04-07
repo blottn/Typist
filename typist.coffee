@@ -48,7 +48,7 @@ class Utilities
 class @Typist extends Utilities
 
   constructor: (element, options = {}) ->
-
+    super()
     @options =
       typist:               element
       letterSelectInterval: 60
