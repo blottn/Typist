@@ -92,7 +92,7 @@ class @Typist extends Utilities
     @_each @offsets.current.text, @selectText
 
     # set the next index
-    @offsets.current.index = @next @offsets.current.index
+    @offsets.current.index = @offsets.current.index + 1
 
     @_delay =>
       @options.currentSlideIndex = @offsets.current.index
@@ -109,9 +109,6 @@ class @Typist extends Utilities
 
     # empty the array with the newly typed text
     @newText.length = 0
-
-  next: (offset) =>
-    offset = offset + 1
 
   fetchVariations: (element) =>
     text       = element.getAttribute "data-typist"
