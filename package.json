@@ -1,8 +1,8 @@
 {
-  "name": "typerism",
-  "version": "1.3.0",
-  "description": "Elegant automated typing, for your text rotation needs. Forked from unamohq/Typist",
-  "homepage": "https://positionly.com",
+  "name": "ghosttyper",
+  "version": "1.0.0",
+  "description": "Typing animations. Forked from unamohq/Typist",
+  "main": "ghost.js",
   "keywords": [
     "typing",
     "animation",
@@ -13,8 +13,5 @@
     "url": "https://github.com/blottn/Typist.git"
   },
   "license": "MIT",
-  "author": "blottn",
-  "scripts": {
-    "build": "coffee -o dist/ -c typist.coffee"
-  }
+  "author": "blottn"
 }

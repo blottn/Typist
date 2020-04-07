@@ -1,7 +1,6 @@
-class Typist {
-    constructor(element, options = {}) {
+class Ghost {
+    constructor(anchor, options = {}) {
         let defaults = {
-            typist: element,
             letterSelectInterval: 60,
             interval: 3000,
             selectClassName: "selectedText",
@@ -9,15 +8,7 @@ class Typist {
 
         this.options = {...defaults, ...options};
 
-        this.ctrl = new TextController(element);
-    }
-
-    fetchVariations(element) {
-        text = element.getAttribute("data-typist");
-        value = element.innerText;
-        variations = text.split(",");
-        variations.splice(0, 0, value);
-        return variations;
+        this.ctrl = new TextController(anchor);
     }
 
     async display(word) {
