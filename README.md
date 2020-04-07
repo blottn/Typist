@@ -1,3 +1,7 @@
+# Foreword
+
+This is a fork of the original unamohq/Typist to add a more SM oriented API. Also to add stopping. I will do my best to reply and address issues but if you want to draft up a PR fixing whatever issue you have there's a good chance I'll blindly merge.
+
 # Typist
 [![CDNJS](https://img.shields.io/cdnjs/v/Typist.svg)](https://cdnjs.com/libraries/Typist)
 
