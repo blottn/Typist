@@ -79,6 +79,7 @@ class TextController {
             index += 1
             if (index <= word.length)
                 return next;
+            this.content = word;
             return false;
         }
         return next.bind(this);
