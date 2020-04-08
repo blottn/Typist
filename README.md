@@ -4,6 +4,10 @@ This is a fork of the original unamohq/Typist to add a more SM oriented API. Als
 
 ## Basic GhostTyper
 
+### Example
+There is an example implementation over in example.html.
+Clone the repo and open it in your browser to see it in action.
+
 ### JS
 ```javascript
 let anchor = document.querySelector("#ghost-anchor")
