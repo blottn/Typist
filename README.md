@@ -4,22 +4,14 @@ This is a fork of the original unamohq/Typist to add a more SM oriented API. Als
 
 ## Basic GhostTyper
 
-```
-
-### CSS
-```CSS
-.selectedText {
-  background: #f00;
-}
-```
-
-
-### CoffeeScript
+### JS
 ```javascript
 let anchor = document.querySelector("#ghost-anchor")
 let ghost = new Ghost(anchor, {
   letterInterval: 60,
 }
+
+ghost.display("Or is there???");
 ```
 
 ### HTML
